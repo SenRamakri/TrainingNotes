@@ -49,4 +49,11 @@ __Some example error codes you can try__ :
 0x8001011F
 
 
+Useful tools
+================
+
+Dependency analysis:
+
+https://github.com/SenRamakri/senramakri.github.io/tree/master/mbed-os-dependency-wheel
+
 
