@@ -41,7 +41,7 @@ Reset the board and observer serial output.
 
 Error Decoding URL
 ==================
-https://armmbed.github.io/mbedos-error/
+https://mbed.com/s/error?
 
 __Some example error codes you can try__ :
 0x8001013D
