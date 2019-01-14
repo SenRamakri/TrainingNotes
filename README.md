@@ -39,4 +39,14 @@ cp .\BUILD\K64F\ARM\mbed-os-example-crash-reporting.bin D:\
 
 Reset the board and observer serial output.
 
+Error Decoding URL
+==================
+https://armmbed.github.io/mbedos-error/
+
+__Some example error codes you can try__ :
+0x8001013D
+0x80010125
+0x8001011F
+
+
 
