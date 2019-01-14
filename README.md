@@ -14,10 +14,10 @@ mbed compile -t GCC_ARM -m K64F
 
 __Running the parser__ :
 
-crash_log_parser <CRASH_LOG> <PATH_TO_ELF_FILE>  <PATH_TO_MAP_FILE>
+python crash_log_parser.py <CRASH_LOG> <PATH_TO_ELF_FILE>  <PATH_TO_MAP_FILE>
 
 Crash Reporting Demo
-==================
+====================
 git clone https://github.com/ARMmbed/mbed-os-example-crash-reporting
 
 cd mbed-os-example-crash-reporting
