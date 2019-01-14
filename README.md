@@ -1,5 +1,4 @@
 # TrainingNotes
-TrainingNotes
 
 Presentation: https://armh-my.sharepoint.com/:p:/g/personal/senthil_ramakrishnan_arm_com/EW-_omcQPHxAr2J5FBcxJf0BKAxy7taT91HYWXKSBLVtcQ?e=T6vQoP
 
