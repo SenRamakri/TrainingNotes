@@ -13,6 +13,7 @@ mbed deploy
 mbed compile -t GCC_ARM -m K64F
 
 Running the parser
+
 crash_log_parser <CRASH_LOG> <PATH_TO_ELF_FILE>  <PATH_TO_MAP_FILE>
 
 Crash Reporting Demo
