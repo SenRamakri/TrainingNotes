@@ -12,9 +12,18 @@ mbed deploy
 
 mbed compile -t GCC_ARM -m K64F
 
+cp .\BUILD\K64F\ARM\mbed-os-example-fault-handler.bin D:\
+
+Reset the board and observer serial output.
+
+Copy the serial port output into crash.txt for running the parser.
+
 __Running the parser__ :
 
 python crash_log_parser.py <CRASH_LOG> <PATH_TO_ELF_FILE>  <PATH_TO_MAP_FILE>
+
+__Example__ :
+python crash_log_parser.py ./crash.txt .\BUILD\K64F\ARM\mbed-os-example-fault-handler.elf .\BUILD\K64F\ARM\mbed-os-example-fault-handler.map
 
 Crash Reporting Demo
 ====================
@@ -25,5 +34,9 @@ cd mbed-os-example-crash-reporting
 mbed deploy
 
 mbed compile -t GCC_ARM -m K64F
+
+cp .\BUILD\K64F\ARM\mbed-os-example-crash-reporting.bin D:\
+
+Reset the board and observer serial output.
 
 
