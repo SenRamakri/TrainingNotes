@@ -69,18 +69,6 @@ Memory Info - https://github.com/ARMmbed/mbed-os-example-platform-utils/
 Error Info - https://github.com/ARMmbed/mbed-os-example-error-handling
 
 
-Building and Running mbed-os-example-cpu-stats
-==============================================
-
-git clone https://github.com/ARMmbed/mbed-os-example-cpu-stats
-
-cd mbed-os-example-cpu-stats
-
-mbed deploy
-
-mbed compile -t GCC_ARM -m K64F
-
-cp .\BUILD\K64F\ARM\mbed-os-example-cpu-stats.bin D:\
 
 
 
