@@ -66,6 +66,9 @@ Network Stats - https://github.com/ARMmbed/mbed-os-example-socket-stats
 
 Memory Info - https://github.com/ARMmbed/mbed-os-example-platform-utils/
 
+Error Info - https://github.com/ARMmbed/mbed-os-example-error-handling
+
+
 Building and Running mbed-os-example-cpu-stats
 ==============================================
 
