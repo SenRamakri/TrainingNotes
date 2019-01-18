@@ -54,4 +54,30 @@ Dependency analysis:
 
 https://github.com/SenRamakri/senramakri.github.io/tree/master/mbed-os-dependency-wheel
 
+Device Health Demos/Examples
+===================================
+CPU Stats - https://github.com/ARMmbed/mbed-os-example-cpu-stats
+
+Thread Stats - https://github.com/ARMmbed/mbed-os-example-thread-statistics
+
+System Info - https://github.com/ARMmbed/mbed-os-example-sys-info
+
+Network Stats - https://github.com/ARMmbed/mbed-os-example-socket-stats
+
+Memory Info - https://github.com/ARMmbed/mbed-os-example-platform-utils/
+
+Building and Running mbed-os-example-cpu-stats
+==============================================
+
+git clone https://github.com/ARMmbed/mbed-os-example-cpu-stats
+
+cd mbed-os-example-cpu-stats
+
+mbed deploy
+
+mbed compile -t GCC_ARM -m K64F
+
+cp .\BUILD\K64F\ARM\mbed-os-example-cpu-stats.bin D:\
+
+
 
